@@ -11,29 +11,67 @@
         <h1>My Portfolio</h1>
         <nav>
             <ul>
-                <li>About</li>
-                <li>Projects</li>
-                <li>Contact</li>
-                <li>Resume</li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#resume">Resume</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <section>
-            <h1>About</h1>
-            <p>My name is John Hanson. I graduated from West Chester Universty in 2021 with a degree in Psychology.  I am learning how to code througha bootcamp and hope to one day become a developer!  This portfolio shows a collection of the code I have written and refactored through my bootcamp assignemnts.  As the bootcamp continues, so will my portfolio!</p>
+        <section id="about" class="row">
+            <div class="column-left">
+                <h2 class="title">About</h2></div>
+                <div class="column-right about">
+                        <p>My name is John Hanson. I graduated from West Chester Universty in 2021 with a degree in Psychology.  I am learning how to code througha bootcamp and hope to one day become a developer!  This portfolio shows a collection of the code I have written and refactored through my bootcamp assignemnts.  As the bootcamp continues, so will my portfolio!</p>
+                </div>
+                <div class="portrait">
+                    <img src="assets/IMG_8929 copy.JPG" alt="Picture of myself">
+                </div>
         </section>
-        <section>
-            <h2>Projects</h2>
+        <section id="projects" class="row">
+            <div class="column-left">
+                <h2 class="title">Projects</h2></div>
+            <div class="images">
+                <ul>
+                    <li>
+                        <span>GitHub</span>
+                        <a href="https://github.com/jhanson10">
+                            <img src="assets/Github.png">
+                        </a>
+                    </li>
+                    <li>
+                        <span>Horiseon Code Refactor</span>
+                        <a href="https://jhanson10.github.io/Week1-Horiseon/">
+                            <img src="assets/ScreenShot copy.png">
+                        </a>
+                    </li>
+                    <li>
+                        <span>Coming Soon!</span>
+                        <a href="https://github.com/jhanson10">
+                            <img src="assets/Code1.jpg">
+                        </a>
+                    </li>
+                </ul>
+            </div>    
         </section>
 
-        <section>
-            <h3>Contact</h3>
-            <ul>
+        <section id="contact" class="row">
+            <div class="column-left">
+                <h2 class="title">Contact</h2></div>
+            <div class="column-right contact">    
+             <ul>
                 <li>Email</li>
                 <li>Phone</li>
+                <li>LinkedIn</li>
             </ul>
+            </div>
+        </section>
+
+        <section id="resume" class="row">
+            <div class="column-left">
+                <h2 class="title">Resume</h2></div>
         </section>
     </main>
 </body>
