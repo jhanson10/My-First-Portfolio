@@ -73,7 +73,10 @@ section {
     width: 250px;
     height: 250px;
 }
-
+.images{
+    display: flex;
+    Flex-direction: column;
+}
 .images ul{
     display: flex;
     overflow: hidden;
@@ -97,3 +100,8 @@ section {
     overflow: hidden;
 }
 
+@media screen  and (max-width: 768px){
+    main, nav{
+        flex-direction: column
+    }
+}
